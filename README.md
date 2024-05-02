@@ -42,6 +42,10 @@ Create a Virtual Machine (VM) named "DC-1" using Windows Server 2022.
 Note the Resource Group and VNet created during VM setup.</p>
 <br />
 
+Set the Domain Controller's NIC private IP address to be static.
+Create a Windows 10 client VM named "Client-1" in the same Resource Group and Vnet as created in Step 1.a.
+Verify that both VMs are in the same Vnet using Network Watcher.
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
