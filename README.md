@@ -25,9 +25,30 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
+
+AD Setup:
+Create an Organizational Unit (OU) named "_EMPLOYEES" in ADUC.
+Create a user named "Jane Doe" with the username "jane_admin" in the "_EMPLOYEES" OU.
+Add "jane_admin" to the "Domain Admins" Security Group.
 - Step 2
+
+  Remote Desktop Setup on Client-1:
+Log into Client-1 as "mydomain.com\jane_admin".
+Open system properties and navigate to "Remote Desktop".
+Allow "domain users" access to remote desktop.
+
 - Step 3
+
+  Create Additional Users and Test Remote Login:
+Log into DC-1 as "jane_admin".
+Open PowerShell_ISE as an administrator.
+Copy and run the script to create additional users.
+
+
 - Step 4
+
+  Conclusion:
+Confirm the completion of all tasks.
 
 <h2>Deployment and Configuration Steps</h2>
 
