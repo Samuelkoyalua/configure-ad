@@ -66,3 +66,22 @@ Promote DC-1 as a domain controller, setting up a new forest with the domain nam
 After setup, restart DC-1.
 Log back into DC-1 as the user mydomain.com\labuser.</p>
 <br />
+
+
+
+
+
+<p>
+<img src="https://i.imgur.com/NUnq6LE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+Open Active Directory Users and Computers (ADUC) and navigate to the domain where you want to create the accounts.
+Create a new Organizational Unit (OU) named "_EMPLOYEES".
+Inside the "_EMPLOYEES" OU, create a new user named "Jane Doe" with the username "jane_admin" and assign the same password.
+Create another OU named "_ADMINS" at the same level as "_EMPLOYEES".
+Add the "jane_admin" user to the "Domain Admins" Security Group.
+Logout or close the Remote Desktop connection to the domain controller.
+Log back in using the credentials "mydomain.com\jane_admin".
+From now on, use the "jane_admin" account as your admin account for administrative tasks.
