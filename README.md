@@ -109,3 +109,46 @@ After applying the changes, non-administrative users can now log into Client-1 v
 
 <img src="https://i.imgur.com/bjku1le.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next..
+
+
+
+
+<img src="https://i.imgur.com/wTHBzbW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<img src="https://i.imgur.com/A8VekUu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+Log into DC-1 using the "jane_admin" account.
+Open PowerShell_ISE as an administrator.
+Create a new file and paste the script contents from here into it.
+Run the script and observe as it creates the additional user accounts.
+Once the script finishes, open Active Directory Users and Computers (ADUC) and verify that the accounts are in the appropriate Organizational Unit (OU).
+Attempt to log into Client-1 using one of the newly created accounts (remember the password provided in the script).
+That concludes the process.
+
+
