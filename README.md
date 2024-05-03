@@ -85,3 +85,20 @@ Add the "jane_admin" user to the "Domain Admins" Security Group.
 Logout or close the Remote Desktop connection to the domain controller.
 Log back in using the credentials "mydomain.com\jane_admin".
 From now on, use the "jane_admin" account as your admin account for administrative tasks.
+
+
+
+
+
+
+p>
+<img src="https://i.imgur.com/O03a5H0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+Log into Client-1 using the "mydomain.com\jane_admin" account.
+Open the system properties on Client-1.
+Navigate to the "Remote Desktop" settings.
+Allow access to "domain users" for remote desktop by configuring the appropriate permissions.
+After applying the changes, non-administrative users can now log into Client-1 via Remote Desktop.
