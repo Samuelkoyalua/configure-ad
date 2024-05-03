@@ -102,3 +102,10 @@ Open the system properties on Client-1.
 Navigate to the "Remote Desktop" settings.
 Allow access to "domain users" for remote desktop by configuring the appropriate permissions.
 After applying the changes, non-administrative users can now log into Client-1 via Remote Desktop.
+
+
+
+
+
+<img src="https://i.imgur.com/bjku1le.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
